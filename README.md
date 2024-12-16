@@ -43,3 +43,21 @@ We use the STable_09 and STable_15 Excel files from [ORCS BioGRID Dataset 19](ht
 You can install these via:
 ```bash
 pip install pandas torch esm openpyxl
+
+
+crispr-regression-model/
+│
+├── data/
+│   ├── STable_09_Sel_STARSOutput.xlsx
+│   ├── STable_15_IFNg_data_STARS.xlsx
+│
+├── output/   # Will be created if not present
+│
+├── src/
+│   ├── data_processing.py
+│   ├── model.py
+│   ├── train.py
+│   ├── utils.py
+│
+└── README.md
+
